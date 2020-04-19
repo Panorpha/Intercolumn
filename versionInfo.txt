@@ -1,5 +1,5 @@
 ﻿Author: Panorpha
-Last Modified: 2020.04.19 11.14
+Last Modified: 2020.06.29 11.25
 Email: Panorpha91@gmail.com
 
 Notes: v1.4
@@ -8,13 +8,8 @@ Description:
 This is a sandbox mission file designed for just about anything imaginable. You play as NATO with access to both a Pyrgos and Molos Air Field or CSAT utilising the AAC Airfield or the Centeral Altis Military Outpost; all from which you can spawn jsut about any utilities in ARMA III accessible, all at your pleasure. Enjoy - Panorpha
 
 To Do:
-- Merge misc folder with teleport folder as it is no longer being utilized for 2 functions
-- move pan_fnc_pmenu_init to a different file location as it is not just for the teleport function, but for the initialisation of all of the player menu.
-- clean up resources folder
-- Safezone:
-	- Create a safezone from scratch. Refrence Moldi's prior safezones from other missions for a push in the right direction.
 - Convert pictures to .paa
-- Merge all of the playerMenu GUIs into one. Consult Moldi on the best approach to do so.
+- Merge all of the playerMenu GUIs into one.
 
 In Game Hotkeys:
 	- Earplugs F1

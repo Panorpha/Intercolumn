@@ -1,6 +1,6 @@
 /*
 	Author: Panorpha
-	Last Modified: 2020.04.01 13.07
+	Last Modified: 2020.06.29 11:24
 	Email: Panorpha91@gmail.com
 
 	Notes:
@@ -11,4 +11,4 @@
 
 */
 
-sleep 1;
+[] spawn pan_fnc_sz_init;
