@@ -10,6 +10,15 @@
 	To Do:
 
 */
+
+sz_safezoned = false;
+sz_inEnemyZone = false;
+sz_justSpawned = false;
+sz_safezoneing = false;
+
+
+player addEventHandler["Respawn",{sz_justSpawned = true;}];
+
 waitUntil {!isNull (findDisplay 46)};
 [] call pan_fnc_mec_localEventHandlers;
 

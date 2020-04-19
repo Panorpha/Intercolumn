@@ -1,6 +1,6 @@
 /*
 	Author: Panorpha
-	Last Modified: 2020.04.19 11.16
+	Last Modified: 2020.04.26 15.16
 	Email: Panorpha91@gmail.com
 
 	Notes:
@@ -44,20 +44,27 @@
 	};
 	class events{
 		file = "functions\mechanics\events";
-		class keys_downPressHandler{};
+		class keys_downPressHandler {};
 	};
 	class earplugs {
 		file = "functions\mechanics\earplugs";
 		class ep_main {};
 	};
-
 	class moderator {
 		file = "functions\mechanics\moderator";
 		class mod_whitelist {};
 	};
-
+	class safezone {
+		file = "functions\mechanics\safezone";
+		class sz_createZone {};
+		class sz_getHeight {};
+		class sz_init {};
+		class sz_kill {};
+		class sz_neutral {};
+		class sz_safe {};
+	};
 	class animations {
 		file = "functions\mechanics\animations";
-		class anm_jump{};
+		class anm_jump {};
 	};
 };
