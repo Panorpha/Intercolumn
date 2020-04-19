@@ -1,0 +1,3 @@
+## Intercolumn Installation Instructions: ##
+
+In order to install this as a multiplayer mission file locally on your machine, go to ```C:\Users\yourUser\Documents\Arma 3 - Other Profiles\playerName\mpmissions``` and clone the files to this directory. Ensure that you also have the root folder attached to this commit, being the Intercolumn folder, else you will not be able to access this mission file.

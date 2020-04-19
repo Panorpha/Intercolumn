@@ -1,0 +1,40 @@
+/*
+	Author: Panorpha
+	Last Modified: 2020.04.19 11.13
+	Email: Panorpha91@gmail.com
+
+	Notes:
+
+	Description:
+
+	To Do:
+
+*/
+
+respawn = "BASE";
+disabledAI = 1;
+respawnDelay = 5;
+
+author= "Panorpha";
+onLoadName = "Intercolumn";
+onLoadMission = "The ultimate sandbox mission.";
+
+class Params
+{
+        #define WEATHER_DEFAULT 30
+    #include "\a3\functions_f\Params\paramWeather.hpp"
+
+};
+#include "functions\whitelist.hpp"
+#include "resources\defines.hpp"
+#include "VVS\menu.h"
+#include "resources\dialogs.hpp"
+
+class CfgFunctions
+{
+    #include "VVS\Functions.h"
+    #include "functions\functions.hpp"
+};
+class RscTitles {
+	#include "resources\RscTitles.hpp"
+};
